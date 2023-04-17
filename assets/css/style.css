@@ -1,0 +1,987 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+    background-position: 0in;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color:whitesmoke;
+    overflow: scroll;
+    word-wrap: break-word;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 58px;  
+}
+div {
+  background: transparent;
+}
+.header-blue .iphone-mockup .screen {
+    position:absolute;
+    width:88%;
+    height:77%;
+    top:12%;
+    border-radius:2px;
+    left:6%;
+    border:1px solid #444;
+    background-color:#aaa;
+    overflow:hidden;
+    background:url(../../assets/img/screen-content-iphone-6.jpg);
+    background-size:cover;
+    background-position:center;
+  }
+
+/* nav {
+	padding: 1rem;
+    
+    
+    text-align: right;
+
+    
+}
+
+nav > a {
+	    text-decoration: none;
+	    color:rgb(121, 101, 77);
+	    
+        padding: 5px 10px;
+}
+
+nav > a:hover {
+              color: silver;
+}
+*/
+video {
+margin-left: 70px;
+display: block;
+width: 100%;
+object-fit: cover;
+overflow: hidden;
+height: 100vh;
+width: 1300px;
+height: 458px;
+border-radius: 74px;
+}
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.284);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2 {
+    color:rgb(121, 101, 77);
+    font-family: Caveat, sans-serif;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+
+
+
+#start {
+    border-top-left-radius: 50%;
+      
+}
+.device {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 65px;
+    overflow: hidden;
+    width: 1500px;
+    height: 321px;
+    
+   
+          
+}
+.first-pic > h1 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: Caveat sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 179px;
+    text-transform: none;
+
+}
+
+.about {
+    margin: 100px;
+   
+    
+}
+.chef {
+    margin: 100px;
+}
+.story {
+    margin: 100px;
+    float: left;
+}
+.bild {
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 550px;
+    margin-top: -265px;
+}
+.foto {
+    width: 400px;
+    height: 300px;
+    border: 2px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 550px;
+    margin-top: -164px;
+}
+ 
+.story .about {
+    width: 400px;
+    height: 300px;
+    
+}
+.container {
+    margin-top: 20px;
+}
+.place_of_image {
+    
+    margin-left: 35px;
+    margin: -45px;
+    display: initial;
+}
+ #color_blue {
+    margin-top: 100px;
+    background-color:rgba(80, 63, 42, 0.312);
+    width: 980px;
+    margin: 70px;
+}
+#color_green {
+    margin-top: 100px;
+    background-color: silver;
+    width: 980px;
+    margin: 190px;
+}
+section {
+    height: 340px;
+    margin: 150px;
+   
+}
+.like {
+    text-align: center;
+    display: inline-flex;
+    width: 1300px;
+    margin: 12px;
+    justify-content: space-between;
+}
+
+.like > li {
+    display: inline;
+    
+}
+
+.like i {
+    font-size: 550%;
+    margin: 0%;
+    padding: 0%;
+    color: silver;
+    
+}
+.special_price {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+    
+}
+
+
+   .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    margin-left: -60px;
+    text-align: right;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #aa4e4e36;
+  }
+  .flip-card-back > h1, h4 {
+    text-align: right;
+    margin-left: -60px;
+    font-size: 15px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -60px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .flip-card-back {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+    transform: rotateY(180deg);
+  }
+
+/*  .special_price:hover {
+    animation: shake 0.35s ease-in-out
+}
+@keyframes shake {
+    0%, 100%{
+      transform: translateX(0);
+    }
+    20%{
+      transform: translateX(-13px);
+    }
+    40%{
+      transform: translateX(13px);
+    }
+    60%{
+      transform: translateX(-8px);
+    }
+    80%{
+      transform: translateX(8px);
+    }
+  
+
+} */
+/* social networks */
+
+fotter {
+    float: inline-end;
+    position: absolute;
+    height: 160px;
+    width: 100%;
+    border-top: 1px solid #cdcdcd;
+    display: block;
+    left: 0; 
+}
+
+#social-networks {
+              margin-top: 200px;
+              margin-bottom: 0px;
+              text-align: center;
+              border-top-left-radius: 50%;
+              background-color: #3a3a3a;
+              width: 1500px;
+              height: 366px;
+}
+#social-networks i {
+                font-size: 160%;
+                
+             padding: 1%;
+                color:whitesmoke;
+                margin-top: 150px;
+               
+}
+.soc i {
+    font-size: 50%;
+    padding: 1%;
+    color:whitesmoke;
+    margin-top: 50px;
+   
+}
+.soc1  {
+    font-size: 160%;
+    
+    padding: 1%;
+    color:whitesmoke;
+    margin-top: 150px;
+}
+#social-networks > div {
+                   display: inline;
+                   color: #f1edea;
+                   text-align: center; 
+}
+
+
+
+button {
+  float: left;
+  background-color:#cdcdcd;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color:#fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color:#3a3a3a47;
+}
+ 
+.special_offers {
+    display: flex;
+    
+    margin: 23px 23px -250px 23px;
+    justify-content: space-between;
+}
+.first > h2 {
+    text-align: left;
+}
+.first {
+    margin-left: 130px;
+}
+.second {
+    margin-top: -664px;
+    margin-left: 659px;
+}
+.third {
+    margin-left: 659px;
+    margin-top: 220px;
+}
+.menu {
+    margin: 53px;
+    background-color:#fff;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 20%;
+}
+.menu > h2 {
+    color: brown;
+    font-size: 15px;
+
+}
+header {
+    
+    border-radius: 57px;
+    height: 600px;
+    background-color:whitesmoke;
+}
+.inner-width {
+    float: right;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo {
+    float: left;
+    padding: 20px 0;
+}
+.logo img {
+    height: 50px;
+}
+.navigation-menu {
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    width: 600px;
+}
+.navigation-menu a {
+    margin-left: 10px;
+    color: brown;
+    text-transform:uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.navigation-menu a:hover {
+    background-color: #aa4e4e36;
+    color: #2f3640;
+    transform: scale(1.1);
+}
+.navigation-menu i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+.fa-bars {
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color:#2f3640;
+    font-size: 26px;
+    display: inline;
+    cursor: pointer;
+    visibility: hidden;
+}
+@media screen and (max-width: 700px) {
+    .fa-bars {
+        display: block !important;
+        visibility: visible;
+    }
+    .navigation-menu {
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        background-color: #aa4e4e36;;
+        top: 90px;
+        right: 0;
+        display: none;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+    .navigation-menu::before {
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid silver;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+
+    }
+    .navigation-menu a {
+        display: block;
+        margin: 10px 0;
+    }
+    .navigation-menu.active {
+        display: block;
+    }
+    #color_green {
+        height: 730px;
+        margin-top: 100px;
+        background-color: silver;
+        width: 417px;
+        margin: 115px;
+        margin-bottom: 83px;
+    }
+    .place_of_image {
+        margin-left: 35px;
+        margin: 146px;
+        display: initial;
+        margin-bottom: -23px;
+    }
+    .bild {
+        width: 300px;
+        height: 200px;
+        border: 2px solid;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 60%);
+        justify-content: space-between;
+        margin: 5px;
+        margin-left: 34px;
+        margin-top: 143px;
+    }
+    .chef {
+        margin: 24px;
+    }
+    .about {
+        margin-top: -32px;
+        margin: 100px;
+        margin-top: 32px;
+    }
+    .flip-card {
+        justify-content: space-between;
+        background-color: transparent;
+        width: 74px;
+        height: 80px;
+        margin-left: 60px;
+        perspective: 1000px;
+        display: inline-table;
+    }
+   
+    .special_offers {
+        display: -webkit-inline-box;
+        margin: 34px 101px -5px 59px;
+        justify-content: space-between;
+        width: 500px;
+    }
+    .like {
+        text-align: center;
+        display: inline-flex;
+        width: 587px;
+        margin: -14px;
+        justify-content: space-between;
+    }
+   
+    header {
+        width: 635px;
+        margin-bottom: 50px;
+        border-radius: 57px;
+        height: 169px;
+        background-color: #fafafa;
+    }
+    .about {
+        margin-top: -32px;
+        margin: 23px;
+        margin-top: 32px;
+    }
+    .story {
+        margin: 0px;
+    }
+    .foto {
+        width: 300px;
+        
+        height: 250px;
+        border: 2px solid;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 60%);
+        justify-content: space-between;
+        margin: -4px;
+        margin-left: 43px;
+        margin-top: 17px;
+    }
+    #social-networks {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        text-align: center;
+        border-top-left-radius: 50%;
+        background-color: #3a3a3a;
+        width: 670px;
+        height: 366px;
+    }
+    .first-pic {
+        margin-top: -17px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 29px;
+        overflow: hidden;
+        width: 536px;
+        height: 247px;
+        background-image: url(https://img.freepik.com/free-photo/lifestyle-portrait-elegant-young-woman-with-dark-wavy-hairstyle-trendy-makeup-fashionable-beige-pullover-coat-sitting-cafe-terrace-drinking-coffee-from-white-cup_197531-24448.jpg?size=626&ext=jpg);
+        margin-left: 40px;
+    }
+   
+}
+
+
+/* reservation */
+form {
+    margin: 350px;
+      width: 1500px;
+      height: 1500px;
+  }
+  div.elem-group {
+      margin: 30px;
+      width: 300px;
+      height: 60px;
+    }
+    
+    div.elem-group.inlined { 
+      display: inline-block;
+      float: right;
+      margin-left: 20px;
+    }
+    
+    label {
+      display: block;
+      font-family: 'Nanum Gothic';
+      padding-bottom: 10px;
+      font-size: 1.25em;
+    }
+    
+    input, select, textarea {
+      border-radius: 2px;
+      border: 2px solid #777;
+      box-sizing: border-box;
+      font-size: 1.25em;
+      font-family: 'Nanum Gothic';
+      width: 100%;
+      padding: 10px;
+    }
+    
+    div.elem-group.inlined input {
+      width: 95%;
+      display: inline-block;
+    }
+    
+    textarea {
+      height: 250px;
+    }
+    
+    hr {
+      border: 1px dotted #ccc;
+    }
+    
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+.container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .item {
+    height: 500px;
+    width: 1200px;
+  }
+  #myCarousel {
+    width: 1200px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 130px;
+    
+  
+  }
+  .kall {
+    width: 1200px;
+    margin-top: 0px;
+    height: 500px;
+  }
+ 
+  carousel-inner {
+    height: 500px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+ /* header */
+
+ .header-blue {
+    background: linear-gradient(135deg, #fe2929, #ffb3c5);
+    background-color: #184e8e;
+    padding-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue {
+      padding-bottom: 120px;
+    }
+  }
+  
+  .header-blue .navbar {
+    background: transparent;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .navbar {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .header-blue .navbar .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+  }
+  
+  .header-blue .navbar .navbar-brand:hover {
+    color: #f0f0f0;
+  }
+  
+  .header-blue .navbar .navbar-collapse {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin-top: .5rem;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .navbar .navbar-collapse {
+      border-color: transparent;
+      margin: 0;
+    }
+  }
+  
+  .header-blue .navbar .navbar-collapse span .login {
+    color: #fff;
+    margin-right: .5rem;
+    text-decoration: none;
+  }
+  
+  .header-blue .navbar .navbar-collapse span .login:hover {
+    color: #fff;
+  }
+  
+  .header-blue .navbar .navbar-toggler {
+    border-color: rgba(255,255,255,0.3);
+  }
+  
+  .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .header-blue .navbar-nav .nav-link {
+      padding-left: .7rem;
+      padding-right: .7rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .header-blue .navbar-nav .nav-link {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+  }
+  
+  .header-blue .navbar.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .header-blue .navbar.navbar-light .navbar-nav .nav-link:focus, .header-blue .navbar.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcfeff !important;
+    background-color: transparent;
+  }
+  
+  .header-blue .navbar .navbar-nav > li > .dropdown-menu {
+    margin-top: -5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  
+  .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
+    line-height: 2;
+    color: #37434d;
+  }
+  
+  .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
+    background: #ebeff1;
+  }
+  
+  .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+    border: 1px solid rgb(255,255,255);
+    border-radius: 40px;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    padding: .3rem .8rem;
+    background: transparent;
+    transition: background-color 0.25s;
+    outline: none;
+  }
+  
+  .header-blue .action-button:hover {
+    color: #fff;
+  }
+  
+  .header-blue .navbar .form-inline label {
+    color: #d9d9d9;
+  }
+  
+  .header-blue .navbar .form-inline .search-field {
+    display: inline-block;
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    color: #fff;
+    box-shadow: none;
+    color: inherit;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  .header-blue .navbar .form-inline .search-field:focus {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header-blue .hero {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @media (min-width:768px) {
+    .header-blue .hero {
+      margin-top: 60px;
+      text-align: left;
+    }
+  }
+  
+  .header-blue .hero h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  
+  @media (min-width:992px) {
+    .header-blue .hero h1 {
+      margin-top: 190px;
+      margin-bottom: 24px;
+      line-height: 1.2;
+    }
+  }
+  
+  .header-blue .hero p {
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  
+  .header-blue .phone-holder {
+    text-align: right;
+  }
+  
+  .header-blue div.iphone-mockup {
+   position: relative;
+      max-width: 300px;
+      margin-top: 172px;
+      display: inline-block;
+  }
+  
+  .header-blue .iphone-mockup img.device {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-blue .iphone-mockup .screen {
+    position: absolute;
+    width: 88%;
+    height: 77%;
+    top: 12%;
+    border-radius: 2px;
+    left: 6%;
+    border: 1px solid #444;
+    background-color: #aaa;
+    overflow: hidden;
+    background: url(../../assets/img/screen-content-iphone-6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header-blue .iphone-mockup .screen:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -12%;
+    right: -60%;
+    transform: rotate(-19deg);
+    opacity: 0.2;
+  }
+
+
+  .container hero {
+    background-image: url(https://img.freepik.com/free-photo/lifestyle-portrait-elegant-young-woman-with-dark-wavy-hairstyle-trendy-makeup-fashionable-beige-pullover-coat-sitting-cafe-terrace-drinking-coffee-from-white-cup_197531-24448.jpg?size=626&ext=jpg);
+  }
+  /*form*/
+  label{
+    display:block;
+    margin:1em 0 .2em;
+  }
+  /* single-line text, checkbox, and button */
+  input, select, textarea{
+    display:block;
+    width:100%;
+    padding:.3em;
+    font-size:20px;
+    background-color:#fbfbfb;
+    border:solid 1px #CCC;
+    resize:vertical;
+  }
+  textarea{
+    min-height:180px;
+  }
+  select{
+    color:indigo;
+  }
+  option{
+    color:blue;
+    background: lavenderBlush;
+  }
+  input[type=checkbox]{
+    display:inline;
+    width:auto;
+    color:red;
+  }
+  
+  input[type=submit]{
+    background:lightcoral;
+    margin:1em 0 0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    transition:all .3s ease-out;
+  }
+  
+  input:focus,
+  input:hover,
+  select:focus,
+  select:hover,
+  textarea:focus,
+  textarea:hover{
+    background: lavenderBlush;
+  }
+  
+  /* hover and focus states */
+  input[type=submit]:hover,
+  input[type=submit]:focus{
+    background: lightgreen;
+    outline:none;
+  }
+  
+  @media screen and (min-width:600px) {
+    /*  make the form 2 columns */
+    form:after{
+      content:'';
+      display:block;
+      clear:both;
+    }
+    .column{
+      width:50%;
+      padding:1em;
+      float:left;
+    }
+  }
+  
+  
+  
+  
