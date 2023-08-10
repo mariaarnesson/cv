@@ -14,6 +14,28 @@ body {
     position: relative;
     padding-bottom: 58px;  
 }
+.move-right {
+  transform: translateX(10px); /* Adjust the value to control the amount of movement */
+  transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+}
+  .skills-container {
+    display: flex;
+    align-items: center; /* Center the skills vertically */
+  }
+
+  .skills-item {
+    margin-right: 20px; /* Add some spacing between skill items */
+  }
+  .contact-link {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .contact-link i {
+    margin-right: 10px;
+  }
 div {
   background: transparent;
 }
