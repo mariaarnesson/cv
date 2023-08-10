@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Tillana:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,31 @@ body {
     position: relative;
     padding-bottom: 58px;  
 }
+
+  :root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #F8F9FA;
+    --text-color: #333;
+  }
+
+  /* Apply the color palette to various elements */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  /* Customize links and buttons */
+  a, .btn {
+    color: var(--primary-color);
+  }
+
+  /* Add hover effects to links and buttons */
+  a:hover, .btn:hover {
+    color: var(--secondary-color);
+  }
+</style>
+
 .move-right {
   transform: translateX(10px); /* Adjust the value to control the amount of movement */
   transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
