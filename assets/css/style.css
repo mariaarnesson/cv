@@ -6,6 +6,8 @@
   border: none;
 }
 body {
+  background-image: url('https://img.freepik.com/free-vector/abstract-black-polygonal-background_1394-1161.jpg?w=826&t=st=1691680624~exp=1691681224~hmac=56f808627fe41a90663ebf47d1a817730161cfc22988e7c9e15ac936c51e977f');
+  background-size: cover;
     background-position: 0in;
     font-family: 'Tillana', cursive;
     background-color:whitesmoke;
