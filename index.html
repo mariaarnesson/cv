@@ -11,6 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" charset="utf-8"></script>
     <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <script src="https://kit.fontawesome.com/142db3e41a.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -55,14 +58,16 @@
                     </div>
                 </div>
         </div>
-        <section>
+       
         
-          <div class="container py-5 h-100">
+        <section id="about" data-aos="fade-up">
+        
+          <div class="container py-5 h-100" style="float: right;">
             <div class="row d-flex justify-content-center align-items-center h-100">
               <div class="col col-xl-10">
                 <div class="card" style="border-radius: 1rem;">
                   <div class="row g-0">   
-                <h1 class="text-center">About Me</h1>
+                <h1 class="text-center section-text">About Me</h1>
                 <p>Today I am looking for a job that allows me to develop my practical skills and abilities, and at the same time challenge myself together with inspiring colleagues.
                   My strengths are what I hope to contribute the most in the new workplace, and they mainly consist of my structured way of working, my optimistic approach to problem solving and my undying interest in programming and technology.
                   People I worked with would probably mainly describe me as meticulous and collaborative. I have often benefited from my ability to find my own solutions to problems and I care about treating other people in a pleasant way.
@@ -86,7 +91,7 @@
                     <div class="col-md-6 col-lg-7 d-flex align-items-center" style="float: right;">
                       <div class="card-body p-4 p-lg-5 text-black">
                         <h1 class="text-center project-name" id="project1"> Project 1  </h1>
-                        <p class="card-text"> HTML/CSS Essentials - History website </p>
+                        <p class="card-text section-text"> HTML/CSS Essentials - History website </p>
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                           <a href="https://github.com/mariaarnesson/portfolio1-guitars_history-website" target="_blank" rel="noopener">
                           <img src="assets/images/project1.png"
@@ -98,7 +103,7 @@
                     <div class="col-md-6 col-lg-7 d-flex align-items-center">
                       <div class="card-body p-4 p-lg-5 text-black">
                         <h1 class="text-center"> Project 2  </h1>
-                        <p class="card-text"> JavaScript Essentiala - Memory Game:
+                        <p class="card-text section-text"> JavaScript Essentiala - Memory Game:
                         </p>
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                           <a href="https://github.com/mariaarnesson/memory_game_playground" target="_blank" rel="noopener">
@@ -111,7 +116,7 @@
                     <div class="col-md-6 col-lg-7 d-flex align-items-center" style="float: right;">
                       <div class="card-body p-4 p-lg-5 text-black">
                         <h1 class="text-center"> Project 3 </h1>
-                        <p class="card-text"> Python Essentiala - Battleship Game: </p>
+                        <p class="card-text section-text"> Python Essentiala - Battleship Game: </p>
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                           <a href="https://github.com/mariaarnesson/battleship_game_project3" target="_blank" rel="noopener">
                           <img src="assets/images/project3.png"
@@ -123,7 +128,7 @@
                     <div class="col-md-6 col-lg-7 d-flex align-items-center">
                       <div class="card-body p-4 p-lg-5 text-black">
                         <h1 class="text-center"> Project 4 </h1>
-                        <p class="card-text"> HTML, CSS, JavaScript, Python+Django, Database (MySQL , Postgres) </p>
+                        <p class="card-text section-text"> HTML, CSS, JavaScript, Python+Django, Database (MySQL , Postgres) </p>
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
                         <a href="https://github.com/mariaarnesson/restaurant_booking_system" target="_blank" rel="noopener">  
                           <img src="assets/images/project4.png"
@@ -141,7 +146,7 @@
         <hr>
 
         <section>
-          <h1 class="text-center">EXPERIENCE</h1>
+          <h1 class="text-center ">EXPERIENCE</h1>
           <div class="container text-center">
             <div class="row">
               <div class="col-md-1 col-sm-2 fa-2x"></div> <!-- Empty column for spacing -->
@@ -239,5 +244,8 @@
             });
           });
         });
+      </script>
+      <script>
+        AOS.init();
       </script>
       </body>

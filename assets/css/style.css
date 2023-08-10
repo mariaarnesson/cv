@@ -36,6 +36,18 @@ body {
   .contact-link i {
     margin-right: 10px;
   }
+  .action-button:hover {
+    background-color: #f8f9fa; /* Change to the color you prefer */
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  .section-text {
+    transition: transform 0.3s ease;
+  }
+
+  .section-text:hover {
+    transform: translateX(5px);
+  }
 div {
   background: transparent;
 }
