@@ -10,26 +10,39 @@ body {
   background-size: cover;
     background-position: 0in;
     font-family: 'Tillana', cursive;
-    background-color:whitesmoke;
+    
     overflow: scroll;
     word-wrap: break-word;
     min-height: 100vh;
     position: relative;
     padding-bottom: 58px;  
 }
-
-  :root {
-    --primary-color: #007BFF;
-    --secondary-color: #6C757D;
-    --background-color: #F8F9FA;
-    --text-color: #333;
+.about-mee h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.about-mee p {
+  font-size: 20px;
+}
+ 
+  .personal-info {
+    font-size: 16px;
+    margin: 10px 0;
   }
-
+  ul.social-media-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+ul.age li {
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+li {
+  display: block;
+}
   /* Apply the color palette to various elements */
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
+
 
   /* Customize links and buttons */
   a, .btn {
@@ -40,7 +53,7 @@ body {
   a:hover, .btn:hover {
     color: var(--secondary-color);
   }
-</style>
+
 
 .move-right {
   transform: translateX(10px); /* Adjust the value to control the amount of movement */
@@ -79,20 +92,7 @@ body {
 div {
   background: transparent;
 }
-.header-blue .iphone-mockup .screen {
-    position:absolute;
-    width:88%;
-    height:77%;
-    top:12%;
-    border-radius:2px;
-    left:6%;
-    border:1px solid #444;
-    background-color:#aaa;
-    overflow:hidden;
-    background:url(../../assets/img/screen-content-iphone-6.jpg);
-    background-size:cover;
-    background-position:center;
-  }
+
 
 /* nav {
 	padding: 1rem;
@@ -940,63 +940,7 @@ form {
       display: inline-block;
   }
   
-  .header-blue .iphone-mockup img.device {
-    width: 100%;
-    height: auto;
-  }
-  
-  .header-blue .iphone-mockup .screen {
-    position: absolute;
-    width: 88%;
-    height: 77%;
-    top: 12%;
-    border-radius: 2px;
-    left: 6%;
-    border: 1px solid #444;
-    background-color: #aaa;
-    overflow: hidden;
-    background: url(../../assets/img/screen-content-iphone-6.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .header-blue .iphone-mockup .screen:before {
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    width: 70%;
-    height: 140%;
-    top: -12%;
-    right: -60%;
-    transform: rotate(-19deg);
-    opacity: 0.2;
-  }
 
-
-  .container hero {
-    background-image: url(https://img.freepik.com/free-photo/lifestyle-portrait-elegant-young-woman-with-dark-wavy-hairstyle-trendy-makeup-fashionable-beige-pullover-coat-sitting-cafe-terrace-drinking-coffee-from-white-cup_197531-24448.jpg?size=626&ext=jpg);
-  }
-  /*form*/
-  label{
-    display:block;
-    margin:1em 0 .2em;
-  }
-  /* single-line text, checkbox, and button */
-  input, select, textarea{
-    display:block;
-    width:100%;
-    padding:.3em;
-    font-size:20px;
-    background-color:#fbfbfb;
-    border:solid 1px #CCC;
-    resize:vertical;
-  }
-  textarea{
-    min-height:180px;
-  }
-  select{
-    color:indigo;
-  }
   option{
     color:blue;
     background: lavenderBlush;
