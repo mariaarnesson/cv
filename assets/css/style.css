@@ -28,11 +28,13 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+/*
 li {
   background-color: rgba(49, 187, 194, 0.311);
   padding: 20px 30px;
   border-radius: 20px;
 }
+*/
 .about-mee h2 {
   font-size: 60px;
   font-weight: bold;
@@ -54,9 +56,11 @@ ul.age li {
   padding: 20px 30px;
   border-radius: 20px;
 }
+/*
 li {
   display: block;
 }
+*/
   /* Apply the color palette to various elements */
 
 
