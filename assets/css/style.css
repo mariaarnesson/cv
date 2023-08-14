@@ -24,42 +24,15 @@ h2 {
 p {
   font-family: cursive;
   color: darkslategray;
-  font-size: 2em;
   margin-top: 0;
   margin-bottom: 1rem;
 }
-/*
-li {
-  background-color: rgba(49, 187, 194, 0.311);
-  padding: 20px 30px;
-  border-radius: 20px;
-}
-*/
+
 .about-mee h2 {
   font-size: 60px;
   font-weight: bold;
 }
-.about-mee p {
-  font-size: 20px;
-}
- 
-  .personal-info {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  ul.social-media-icon {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-}
-ul.age li {
-  padding: 20px 30px;
-  border-radius: 20px;
-}
-/*
-li {
-  display: block;
-}
+
 */
   /* Apply the color palette to various elements */
 
@@ -74,11 +47,6 @@ li {
     color: var(--secondary-color);
   }
 
-
-.move-right {
-  transform: translateX(10px); /* Adjust the value to control the amount of movement */
-  transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
-}
   .skills-container {
     display: flex;
     align-items: center; /* Center the skills vertically */
