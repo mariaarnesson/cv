@@ -133,21 +133,3 @@ p {
     max-width: 100%;
   }
 }
-.gradient-custom-5 {
-  /* fallback for old browsers */
-  background: #ebbba7;
-
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(
-    to right,
-    rgba(235, 187, 167, 1),
-    rgba(207, 199, 248, 1)
-  );
-
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(
-    to right,
-    rgba(235, 187, 167, 1),
-    rgba(207, 199, 248, 1)
-  );
-}
