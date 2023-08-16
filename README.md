@@ -2,4 +2,4 @@
 
 ## Credits:
 
-[Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
+[Timeline](https://mdbootstrap.com/docs/standard/extended/timeline/)
