@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Tillana:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 body {
     background: linear-gradient(99deg, #337ab7, transparent);
     background-position: 0in;
-    font-family: 'Tillana', cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     overflow: scroll;
     word-wrap: break-word;
