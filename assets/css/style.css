@@ -12,7 +12,6 @@ header {
   z-index: 1;
 
   /* Gör att nästa innehåll kan överlappa */
-  display: flex;
   padding: 20px;
 }
 
