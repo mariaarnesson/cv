@@ -28,6 +28,7 @@ main {
   background: linear-gradient(99deg, #F2C6C2, transparent);
   position: relative;
   z-index: 20;
+  top: 450px;
 }
 
 body {
