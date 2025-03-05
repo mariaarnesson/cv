@@ -377,7 +377,7 @@
     </section>
     </div>
 
-    <section id="contact" class="py-5">
+    <section id="contact" class=" bg-white py-5">
       <div class="container text-center">
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch with me, feel free to reach out using the following channels:</p>
@@ -422,22 +422,27 @@
     AOS.init();
   </script>
   <script>
-    document.getElementById("openSidebar").addEventListener("click", function () {
-      document.getElementById("sidebar").classList.add("open");
-    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const sidebar = document.getElementById("sidebar");
+      const openSidebarBtn = document.getElementById("openSidebar");
+      const closeSidebarBtn = document.getElementById("closeSidebar");
 
-    document.getElementById("closeSidebar").addEventListener("click", function () {
-      document.getElementById("sidebar").classList.remove("open");
-    });
+      if (sidebar && openSidebarBtn && closeSidebarBtn) {
+        // Döljer sidebaren från början
+        sidebar.style.display = "none";
 
-    $(document).ready(function () {
-      $("#openSidebar").click(function () {
-        $("#sidebar").fadeIn(); // Visar sidopanelen
-      });
+        // När användaren klickar på "View Full Resume"
+        openSidebarBtn.addEventListener("click", function () {
+          sidebar.style.display = "block"; // Visar sidebaren
+        });
 
-      $("#closeSidebar").click(function () {
-        $("#sidebar").fadeOut(); // Dölj sidopanelen
-      });
+        // När användaren klickar på "✖"
+        closeSidebarBtn.addEventListener("click", function () {
+          sidebar.style.display = "none"; // Döljer sidebaren
+        });
+      } else {
+        console.error("Ett eller flera element saknas i DOM-trädet.");
+      }
     });
 
   </script>

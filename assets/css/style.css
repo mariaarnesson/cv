@@ -48,7 +48,7 @@ body {
   display: none;
   position: fixed;
   top: 0;
-
+  right: 0;
   /* Startposition utanför skärmen */
   width: 70%;
   height: 90%;
@@ -60,12 +60,12 @@ body {
 }
 
 #sidebar.active {
-  left: 0;
+  display: block;
 }
 
 #sidebar.open {
-  left: 0;
-  /* Skjuter in sidomenyn */
+  left: -100%
+    /* Skjuter in sidomenyn */
 }
 
 #overlay {
