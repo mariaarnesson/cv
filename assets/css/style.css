@@ -65,9 +65,10 @@ body {
 }
 
 #sidebar.open {
-  left: -100%
-    /* Skjuter in sidomenyn */
+  transform: translateX(0);
+  /* Glider in från höger */
 }
+
 
 #overlay {
   position: fixed;
